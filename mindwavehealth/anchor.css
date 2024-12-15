@@ -1,0 +1,21 @@
+a:link{
+    color:rgba(200, 0, 255, 0.895);
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color:rgb(1, 10, 10);
+}
+
+a:focus{
+    color:rgb(65, 1, 54);
+    border: palevioletred 20px;        
+}
+
+a:visited{
+    color: blue;
+}

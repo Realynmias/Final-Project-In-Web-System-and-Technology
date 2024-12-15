@@ -1,0 +1,29 @@
+/* tablet or larger */
+@media (min-width: 768px) {
+    .container {
+        width: 80%;
+        padding: 20px;
+        background-color: rgb(197, 125, 169);
+    }
+    nav {
+        background-color: rgb(173, 216, 216);
+        padding: 10px;
+        text-align: center;
+        position: sticky;
+    }
+}
+/* laptop/desktop*/
+@media (min-width: 1024px) {
+    .container {
+        width: 60%;
+        padding: 30px;
+        background-color: rgb(170, 144, 219);
+    }
+    nav {
+        background-color: rgb(185, 206, 235);
+        padding: 10px;
+        text-align: center;
+        position: sticky;
+        top: 0;
+    }
+}
